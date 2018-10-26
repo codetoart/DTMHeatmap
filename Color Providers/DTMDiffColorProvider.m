@@ -73,9 +73,9 @@
     }
     
     *alpha *= maxVal;
-    *blue *= *alpha;
-    *green *= *alpha;
-    *red *= *alpha;
+    *blue *= 0;
+    *green *= 0;
+    *red *= 255;
 }
 
 @end
